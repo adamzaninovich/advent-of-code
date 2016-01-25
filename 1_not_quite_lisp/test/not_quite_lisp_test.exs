@@ -7,7 +7,7 @@ defmodule NotQuiteLispTest do
     {:ok, %{pid: pid}}
   end
 
-  test "it can get teh current floor", %{pid: pid} do
+  test "it can get the current floor", %{pid: pid} do
     assert NotQuiteLisp.current_floor(pid) == 0
   end
 
